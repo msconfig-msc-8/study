@@ -1,10 +1,9 @@
-# services/deal_service.py
-
-from models.client import Client
 from models.agent import Agent
+from models.client import Client
+from models.deal import Deal
 from models.property import Property
-from models.document import Document
 from services.document_service import DocumentService
+
 
 class DealService:
     """
@@ -12,28 +11,38 @@ class DealService:
     """
 
     @staticmethod
-    def make_deal(deal_id: int, client: Client, agent: Agent, property_obj: Property) -> Document:
+    def make_deal(
+        deal_id: int,
+        client: Client,
+        agent: Agent,
+        property_obj: Property,
+    ) -> Deal:
         """
-        Проводит сделку: проверяет бюджет, списывает средства, продает объект и выдает документ.
+        Проводит сделку: проверяет бюджет, продает объект,
+        оформляет документ и возвращает завершенную сделку.
         """
-        # 1. Проверяем, не купил ли кто-то квартиру прямо перед нами
         if not property_obj.is_available:
-            raise RuntimeError(f"Сделка отменена: Объект '{property_obj.address}' уже продан!")
+            raise RuntimeError(
+                f"Сделка отменггена : Объект '{property_obj.address}' уже продан!"
+            )
 
-        # 2. Проверяем, хватает ли у клиента денег (бюджет)
         if client.budget < property_obj.price:
-            raise ValueError(f"Сделка отменена: У клиента {client.name} недостаточно средств! "
-                             f"Нужно {property_obj.price}$, а есть только {client.budget}$.")
+            raise ValueError(
+                f"Сделка отменена: У клиента {client.name} "
+                f"недостаточно средств! Нужно {property_obj.price}$, "
+                f"а есть только {client.budget}$."
+            )
 
-        # 3. Финансовая операция (списываем деньги)
         client.budget -= property_obj.price
-
-        # 4. Фиксируем продажу объекта
         property_obj.sell()
 
-        # 5. Оформление документации через другой сервис
-        document = DocumentService.draft_document(deal_id, client, agent, property_obj)
+        deal = Deal(deal_id, property_obj, client, agent, property_obj.price)
+        document = DocumentService.draft_document(
+            deal_id,
+            client,
+            agent,
+            property_obj,
+        )
         DocumentService.sign_document(document)
-
-        # Возвращаем готовый и подписанный документ как результат успешной сделки
-        return document
+        deal.complete(document)
+        return deal
