@@ -23,7 +23,7 @@ class DealService:
         """
         if not property_obj.is_available:
             raise RuntimeError(
-                f"Сделка отменггена : Объект '{property_obj.address}' уже продан!"
+                f"Сделка отменена : Объект '{property_obj.address}' уже продан!"
             )
 
         if client.budget < property_obj.price:
