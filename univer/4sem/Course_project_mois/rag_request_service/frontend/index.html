@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG-система</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Справочная RAG-система</h1>
+        <p class="subtitle">Введите запрос по технологиям искусственного интеллекта</p>
+
+        <textarea
+            id="queryInput"
+            placeholder="Например: Чем CNN отличается от RNN?"
+        ></textarea>
+
+        <button id="sendButton">Отправить запрос</button>
+
+        <section class="result-block">
+            <h2>Результат обработки</h2>
+
+            <div class="field">
+                <strong>Тип запроса:</strong>
+                <span id="queryType">—</span>
+            </div>
+
+            <div class="field">
+                <strong>Источник классификации:</strong>
+                <span id="classificationSource">—</span>
+            </div>
+
+            <div class="field">
+                <strong>Сценарий:</strong>
+                <span id="scenario">—</span>
+            </div>
+
+            <div class="field">
+                <strong>Ответ:</strong>
+                <p id="answer">—</p>
+            </div>
+
+            <details>
+                <summary>Полный JSON-ответ</summary>
+                <pre id="rawResponse"></pre>
+            </details>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
