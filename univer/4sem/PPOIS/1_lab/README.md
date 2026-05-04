@@ -97,14 +97,27 @@ python main.py
 ```
 
 ## Запуск тестов
+
+Всего в проекте **43 теста**: 35 тестов моделей (`tests/`) и 8 тестов сервисов (`test_services/`).
+
+Тесты моделей:
 ```bash
-python -m unittest discover -q
+python -m unittest discover -s tests -v
 ```
 
-Или через Python из виртуального окружения:
-
+Тесты сервисов:
 ```bash
-.\venv\Scripts\python.exe -m unittest discover -q
+python -m unittest discover -s test_services -v
+```
+
+Запустить все тесты одной командой:
+```bash
+python -m unittest discover -s tests -v && python -m unittest discover -s test_services -v
+```
+
+Если используется виртуальное окружение:
+```bash
+.\venv\Scripts\python.exe -m unittest discover -s tests -v && .\venv\Scripts\python.exe -m unittest discover -s test_services -v
 ```
 
 ## Проверка стиля PEP 8

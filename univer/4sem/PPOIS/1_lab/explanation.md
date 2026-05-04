@@ -401,9 +401,11 @@ class TestDealService(unittest.TestCase):
             DealService.make_deal(4, self.poor_client, self.agent, self.property)  # → ошибка! ✅
 ```
 
-### Результаты тестов (все 20 прошли ✅):
+### Результаты тестов (все 43 прошли ✅):
 ```
-Ran 20 tests in 0.001s — OK
+tests/:         Ran 35 tests in 0.003s — OK
+test_services/: Ran 8 tests in 0.001s — OK
+Итого: 43 теста
 ```
 
 ---
