@@ -1,0 +1,70 @@
+{
+  "agency": {
+    "name": "Мечта Риелтора"
+  },
+  "market": {
+    "name": "Минск",
+    "trend_multiplier": 1.0
+  },
+  "agents": [
+    {
+      "agent_id": 1,
+      "name": "Иван Иванов",
+      "experience_years": 5
+    },
+    {
+      "agent_id": 2,
+      "name": "Мария Орлова",
+      "experience_years": 8
+    }
+  ],
+  "clients": [
+    {
+      "client_id": 1,
+      "name": "Петр Петров",
+      "budget": 150000.0
+    },
+    {
+      "client_id": 2,
+      "name": "Анна Смирнова",
+      "budget": 50000.0
+    },
+    {
+      "client_id": 3,
+      "name": "Шахзад",
+      "budget": 95000.0
+    }
+  ],
+  "properties": [
+    {
+      "property_id": 1,
+      "address": "ул. Пушкина, д. Колотушкина, кв. 5",
+      "price": 45000.0,
+      "area": 40.5,
+      "is_available": true
+    },
+    {
+      "property_id": 2,
+      "address": "Невский проспект, д. 1, пентхаус",
+      "price": 120000.0,
+      "area": 120.0,
+      "is_available": true
+    },
+    {
+      "property_id": 3,
+      "address": "ул. Садовая, д. 10, кв. 14",
+      "price": 65000.0,
+      "area": 62.0,
+      "is_available": true
+    },
+    {
+      "property_id": 4,
+      "address": "Якуба Коласа 28",
+      "price": 90000.0,
+      "area": 120.0,
+      "is_available": true
+    }
+  ],
+  "documents": [],
+  "deals": []
+}

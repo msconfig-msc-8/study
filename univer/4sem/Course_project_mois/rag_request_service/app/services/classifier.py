@@ -3,20 +3,27 @@ from app.services.rule_classifier import classify_by_rules
 
 
 async def classify_query(query: str) -> dict:
-    try:
-        query_type = await classify_with_llm(query)
+    llm_error = None
 
-        return {
-            "type": query_type,
-            "source": "llm",
-            "llm_error": None,
-        }
+    # Пробуем LLM два раза, потому что API иногда может вернуть неполный JSON
+    for _ in range(2):
+        try:
+            query_type = await classify_with_llm(query)
 
-    except Exception as error:
-        fallback_type = classify_by_rules(query)
+            return {
+                "type": query_type,
+                "source": "llm",
+                "llm_error": None,
+            }
 
-        return {
-            "type": fallback_type,
-            "source": "rules",
-            "llm_error": str(error),
-        }
+        except Exception as error:
+            llm_error = str(error)
+
+    # Если LLM оба раза не сработала — используем резервные правила
+    fallback_type = classify_by_rules(query)
+
+    return {
+        "type": fallback_type,
+        "source": "rules",
+        "llm_error": llm_error,
+    }

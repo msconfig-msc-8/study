@@ -1,14 +1,14 @@
 # 🧪 Описание всех тестов проекта
 
-> Всего в проекте **43 теста** в **13 файлах**, разделённых на две группы:
-> - `tests/` — тесты моделей (35 тестов, 8 файлов)
+> Всего в проекте **45 тестов** в **14 файлах**, разделённых на две группы:
+> - `tests/` — тесты моделей и хранения (37 тестов, 9 файлов)
 > - `test_services/` — тесты сервисов (8 тестов, 5 файлов)
 
 Все тесты написаны с использованием стандартной библиотеки `unittest`.
 
 ---
 
-## Часть 1: Тесты моделей (`tests/`)
+## Часть 1: Тесты моделей и хранения (`tests/`)
 
 ---
 
@@ -320,6 +320,22 @@ def test_document_str_signed(self):                 # подписанный
 
 ---
 
+### 💾 `tests/test_json_storage.py` — Тесты JSON-хранилища (2 теста)
+
+Проверяет, что текущее состояние агентства можно сохранить в `data.json`
+и затем восстановить без потери связей между клиентом, агентом, объектом,
+сделкой и документом.
+
+| № | Тест | Что проверяет |
+|---|------|---------------|
+| 36 | `test_save_and_load_agency_state` | Сохранение и загрузку состояния агентства |
+| 37 | `test_backup_data_file_moves_broken_file` | Перенос поврежденного `data.json` в резервный файл |
+
+**Смысл:** после загрузки должны сохраниться бюджет клиента после сделки,
+статус проданного объекта, завершенная сделка и связанный документ.
+
+---
+
 ## Часть 2: Тесты сервисов (`test_services/`)
 
 ---
@@ -339,9 +355,9 @@ def setUp(self):
 
 | № | Тест | Что проверяет |
 |---|------|---------------|
-| 36 | `test_make_deal_success` | Полный успешный сценарий сделки |
-| 37 | `test_make_deal_not_enough_money` | Ошибка при нехватке денег |
-| 38 | `test_make_deal_already_sold` | Ошибка при продаже уже проданного объекта |
+| 38 | `test_make_deal_success` | Полный успешный сценарий сделки |
+| 39 | `test_make_deal_not_enough_money` | Ошибка при нехватке денег |
+| 40 | `test_make_deal_already_sold` | Ошибка при продаже уже проданного объекта |
 
 #### `test_make_deal_success`
 ```python
@@ -386,7 +402,7 @@ def test_make_deal_already_sold(self):
 
 | № | Тест | Что проверяет |
 |---|------|---------------|
-| 39 | `test_draft_and_sign` | Создание черновика и подписание через сервис |
+| 41 | `test_draft_and_sign` | Создание черновика и подписание через сервис |
 
 #### `test_draft_and_sign`
 ```python
@@ -419,8 +435,8 @@ def setUp(self):
 
 | № | Тест | Что проверяет |
 |---|------|---------------|
-| 40 | `test_find_properties_by_price` | Поиск по максимальной цене |
-| 41 | `test_find_properties_by_area` | Поиск по минимальной площади |
+| 42 | `test_find_properties_by_price` | Поиск по максимальной цене |
+| 43 | `test_find_properties_by_area` | Поиск по минимальной площади |
 
 #### `test_find_properties_by_price`
 ```python
@@ -446,7 +462,7 @@ def test_find_properties_by_area(self):
 
 | № | Тест | Что проверяет |
 |---|------|---------------|
-| 42 | `test_estimate_market_value_with_market_object` | Расчёт рыночной стоимости с учётом коэффициента |
+| 44 | `test_estimate_market_value_with_market_object` | Расчёт рыночной стоимости с учётом коэффициента |
 
 #### `test_estimate_market_value_with_market_object`
 ```python
@@ -466,7 +482,7 @@ def test_estimate_market_value_with_market_object(self):
 
 | № | Тест | Что проверяет |
 |---|------|---------------|
-| 43 | `test_arrange_viewing_sold_property` | Ошибка при просмотре проданного объекта |
+| 45 | `test_arrange_viewing_sold_property` | Ошибка при просмотре проданного объекта |
 
 #### `test_arrange_viewing_sold_property`
 ```python
@@ -483,7 +499,7 @@ def test_arrange_viewing_sold_property(self):
 
 ---
 
-## Сводная таблица: все 43 теста
+## Сводная таблица: все 45 тестов
 
 | № | Файл | Тест | Тип проверки |
 |---|------|------|--------------|
@@ -522,14 +538,16 @@ def test_arrange_viewing_sold_property(self):
 | 33 | `test_str_methods.py` | `test_document_str_signed` | `__str__` |
 | 34 | `test_str_methods.py` | `test_deal_str_in_progress` | `__str__` |
 | 35 | `test_str_methods.py` | `test_deal_str_completed` | `__str__` |
-| 36 | `test_deal_service.py` | `test_make_deal_success` | Интеграционный |
-| 37 | `test_deal_service.py` | `test_make_deal_not_enough_money` | Валидация (ValueError) |
-| 38 | `test_deal_service.py` | `test_make_deal_already_sold` | Защита (RuntimeError) |
-| 39 | `test_document_service.py` | `test_draft_and_sign` | Сервисный слой |
-| 40 | `test_search_service.py` | `test_find_properties_by_price` | Фильтрация |
-| 41 | `test_search_service.py` | `test_find_properties_by_area` | Фильтрация |
-| 42 | `test_valuation_service.py` | `test_estimate_market_value_with_market_object` | Расчёт |
-| 43 | `test_viewing_service.py` | `test_arrange_viewing_sold_property` | Валидация (ValueError) |
+| 36 | `test_json_storage.py` | `test_save_and_load_agency_state` | Сохранение состояния |
+| 37 | `test_json_storage.py` | `test_backup_data_file_moves_broken_file` | Резервная копия поврежденного файла |
+| 38 | `test_deal_service.py` | `test_make_deal_success` | Интеграционный |
+| 39 | `test_deal_service.py` | `test_make_deal_not_enough_money` | Валидация (ValueError) |
+| 40 | `test_deal_service.py` | `test_make_deal_already_sold` | Защита (RuntimeError) |
+| 41 | `test_document_service.py` | `test_draft_and_sign` | Сервисный слой |
+| 42 | `test_search_service.py` | `test_find_properties_by_price` | Фильтрация |
+| 43 | `test_search_service.py` | `test_find_properties_by_area` | Фильтрация |
+| 44 | `test_valuation_service.py` | `test_estimate_market_value_with_market_object` | Расчёт |
+| 45 | `test_viewing_service.py` | `test_arrange_viewing_sold_property` | Валидация (ValueError) |
 
 ---
 
