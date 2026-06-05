@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name>Иванов Алексей Сергеевич</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>6</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Петров Дмитрий Игоревич</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>5</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Сидоров Максим Андреевич</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>10</total_works>
+    <done_works>9</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Козлов Никита Владимирович</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>8</total_works>
+    <done_works>4</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Новиков Артём Павлович</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>6</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Морозов Егор Николаевич</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>3</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Волков Илья Денисович</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>7</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Лебедев Андрей Романович</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>10</total_works>
+    <done_works>8</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Соколов Кирилл Тимурович</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>10</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Попов Владимир Олегович</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>9</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Кузнецов Степан Евгеньевич</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>12</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Зайцев Павел Артёмович</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>11</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Королёв Матвей Дмитриевич</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>10</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Яковлев Фёдор Александрович</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>7</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Орлов Данила Максимович</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>6</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Макаров Тимофей Игоревич</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>14</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Никитин Глеб Андреевич</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>14</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Захаров Роман Викторович</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>13</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Виноградов Арсений Петрович</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>16</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Ефимов Михаил Дмитриевич</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>18</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Алексеев Леонид Сергеевич</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>11</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Степанов Константин Романович</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>9</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Богданов Кирилл Фёдорович</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>15</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Николаев Антон Алексеевич</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>17</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Семёнов Вадим Николаевич</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>18</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Голубев Евгений Максимович</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>20</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Васильев Дмитрий Олегович</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>19</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Сергеев Илья Владимирович</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>16</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Кириллов Павел Тимурович</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>18</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Михайлов Артём Евгеньевич</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>14</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Фёдоров Андрей Степанович</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>17</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Громов Алексей Борисович</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>21</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Давыдов Сергей Петрович</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>22</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Беляев Игорь Максимович</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>24</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Тихонов Юрий Александрович</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>23</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Кузьмин Владислав Дмитриевич</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>20</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Пономарёв Кирилл Иванович</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>22</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Бирюков Артём Николаевич</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>19</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Гусев Роман Андреевич</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>21</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Смирнов Владимир Сергеевич</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>8</total_works>
+    <done_works>2</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Ульянов Борис Фёдорович</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>8</done_works>
+    <language>PHP</language>
+  </student>
+  <student>
+    <name>Тарасов Денис Игоревич</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>12</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Белов Вячеслав Романович</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>10</done_works>
+    <language>PHP</language>
+  </student>
+  <student>
+    <name>Путилин Сергей Михайлович</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>15</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Куликов Павел Алексеевич</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>5</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Горбунов Тимур Дмитриевич</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>3</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Мельников Евгений Борисович</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>14</done_works>
+    <language>PHP</language>
+  </student>
+  <student>
+    <name>Нестеров Константин Олегович</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>9</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Шевченко Андрей Владимирович</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>16</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Фролов Антон Николаевич</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>12</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Медведев Игорь Степанович</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>8</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Ковалёв Алексей Дмитриевич</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>13</done_works>
+    <language>Python</language>
+  </student>
+</students>

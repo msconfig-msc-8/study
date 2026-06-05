@@ -75,7 +75,17 @@ class DealService:
 
 
 
-class Car:
-    def __init__(self, name):
-        self.name
-        
+# a="car"
+
+
+
+
+
+
+
+args, **kwargs):
+    print(2+a)
+
+
+
+print(1, 2, 3, age=26, name="Alice")

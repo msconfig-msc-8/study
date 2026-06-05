@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from PyQt5.QtWidgets import QApplication; print\\('PyQt5 OK'\\)\")"
+    ]
+  }
+}

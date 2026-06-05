@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name>Иванова Мария Сергеевна</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>7</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Петрова Анастасия Игоревна</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>8</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Сидорова Екатерина Андреевна</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>10</total_works>
+    <done_works>5</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Козлова Виктория Владимировна</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>8</total_works>
+    <done_works>4</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Новикова Алина Павловна</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>6</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Морозова Дарья Николаевна</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>2</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Волкова Полина Денисовна</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>11</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Лебедева Ирина Романовна</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>9</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Соколова Ксения Тимуровна</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>14</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Попова Юлия Олеговна</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>10</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Кузнецова Ольга Евгеньевна</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>8</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Зайцева Надежда Артёмовна</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>10</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Королёва Валерия Дмитриевна</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>15</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Яковлева Татьяна Александровна</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>12</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Орлова Светлана Максимовна</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>17</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Макарова Елена Игоревна</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>18</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Никитина Мария Андреевна</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>11</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Захарова Наталья Викторовна</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>14</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Виноградова Арина Петровна</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>19</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Ефимова Кристина Дмитриевна</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>20</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Алексеева Анна Сергеевна</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>17</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Степанова Вера Романовна</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>22</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Богданова Лидия Фёдоровна</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>16</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Николаева Маргарита Алексеевна</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>13</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Семёнова Людмила Николаевна</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>23</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Голубева Нина Максимовна</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>24</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Васильева Диана Олеговна</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>21</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Сергеева Елизавета Владимировна</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>25</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Кириллова Александра Тимуровна</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>20</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Михайлова Дарья Евгеньевна</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>22</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Фёдорова Валентина Степановна</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>18</done_works>
+    <language>PHP</language>
+  </student>
+  <student>
+    <name>Громова Юлия Борисовна</name>
+    <course>4</course>
+    <group>ПО-42</group>
+    <total_works>22</total_works>
+    <done_works>11</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Давыдова Снежана Петровна</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>13</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Беляева Наталья Максимовна</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>6</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Тихонова Ульяна Александровна</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>8</total_works>
+    <done_works>3</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Кузьмина Алиса Дмитриевна</name>
+    <course>2</course>
+    <group>ИВТ-21</group>
+    <total_works>10</total_works>
+    <done_works>7</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Пономарёва Жанна Ивановна</name>
+    <course>3</course>
+    <group>ИВТ-31</group>
+    <total_works>14</total_works>
+    <done_works>10</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Бирюкова Камилла Николаевна</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>18</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Гусева Регина Андреевна</name>
+    <course>5</course>
+    <group>ИВТ-51</group>
+    <total_works>22</total_works>
+    <done_works>15</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Смирнова Вероника Сергеевна</name>
+    <course>1</course>
+    <group>ПО-11</group>
+    <total_works>8</total_works>
+    <done_works>6</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Ульянова Зинаида Фёдоровна</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>4</done_works>
+    <language>C++</language>
+  </student>
+  <student>
+    <name>Тарасова Инна Игоревна</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>16</done_works>
+    <language>Rust</language>
+  </student>
+  <student>
+    <name>Белова Оксана Романовна</name>
+    <course>4</course>
+    <group>ПО-41</group>
+    <total_works>20</total_works>
+    <done_works>14</done_works>
+    <language>PHP</language>
+  </student>
+  <student>
+    <name>Путилина Галина Михайловна</name>
+    <course>5</course>
+    <group>ПО-52</group>
+    <total_works>26</total_works>
+    <done_works>20</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Куликова Евгения Алексеевна</name>
+    <course>1</course>
+    <group>ИВТ-11</group>
+    <total_works>6</total_works>
+    <done_works>4</done_works>
+    <language>Java</language>
+  </student>
+  <student>
+    <name>Горбунова Зоя Дмитриевна</name>
+    <course>2</course>
+    <group>ПО-22</group>
+    <total_works>14</total_works>
+    <done_works>12</done_works>
+    <language>C#</language>
+  </student>
+  <student>
+    <name>Мельникова Таисия Борисовна</name>
+    <course>3</course>
+    <group>ПО-32</group>
+    <total_works>18</total_works>
+    <done_works>15</done_works>
+    <language>Go</language>
+  </student>
+  <student>
+    <name>Нестерова Ангелина Олеговна</name>
+    <course>4</course>
+    <group>ИВТ-41</group>
+    <total_works>18</total_works>
+    <done_works>17</done_works>
+    <language>Kotlin</language>
+  </student>
+  <student>
+    <name>Шевченко Полина Владимировна</name>
+    <course>5</course>
+    <group>ПО-51</group>
+    <total_works>24</total_works>
+    <done_works>22</done_works>
+    <language>Swift</language>
+  </student>
+  <student>
+    <name>Фролова Тамара Николаевна</name>
+    <course>1</course>
+    <group>ПО-12</group>
+    <total_works>8</total_works>
+    <done_works>8</done_works>
+    <language>Python</language>
+  </student>
+  <student>
+    <name>Медведева Карина Степановна</name>
+    <course>2</course>
+    <group>ПО-21</group>
+    <total_works>12</total_works>
+    <done_works>9</done_works>
+    <language>JavaScript</language>
+  </student>
+  <student>
+    <name>Ковалёва Вика Дмитриевна</name>
+    <course>3</course>
+    <group>ПО-31</group>
+    <total_works>16</total_works>
+    <done_works>14</done_works>
+    <language>Java</language>
+  </student>
+</students>

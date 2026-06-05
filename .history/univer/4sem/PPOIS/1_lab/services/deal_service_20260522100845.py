@@ -75,7 +75,18 @@ class DealService:
 
 
 
-class Car:
-    def __init__(self, name):
-        self.name
-        
+a=56
+
+
+
+
+
+
+
+
+def print():
+    print(2+a)
+
+
+
+print(a)

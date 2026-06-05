@@ -36,4 +36,4 @@ dist/
 htmlcov/
 .coverage
 .claude
-.github
+.

@@ -35,5 +35,4 @@ dist/
 *.egg-info/
 htmlcov/
 .coverage
-.claude
-.github
+.clad
